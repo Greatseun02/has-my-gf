@@ -18,7 +18,7 @@
       "port": 3000
     },
     "database": {
-      "port": 5000
+      "port": 8000
     },
     "hosting": {
       "port": 5173
@@ -27,5 +27,8 @@
       "enabled": true
     },
     "singleProjectMode": true
+  },
+  "database": {
+    "rules": "database.rules.json"
   }
 }
