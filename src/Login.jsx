@@ -1,4 +1,4 @@
-import { handleSignOut, handleGoogleSignIn } from "../firebase/firebase-auth"
+import { handleSignOut, handleGoogleSignIn } from "./firebase/firebase-auth.js"
 import Header from "./Header.jsx"
 import { FaGoogle } from "react-icons/fa";
 
