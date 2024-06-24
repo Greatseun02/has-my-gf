@@ -1,12 +1,12 @@
 import { handleSignOut, handleGoogleSignIn } from "../firebase/firebase-auth"
-import Header from "./Header"
+import Header from "./Header.jsx"
 import { FaGoogle } from "react-icons/fa";
 
 export default function Login(){
     return(
         <div className="p-10">
             <Header/>
-            
+
             <div className="mt-10 w-[70%] mx-auto ">
                 <form className="grid gap-5">
                     <div className="grid gap-3">
