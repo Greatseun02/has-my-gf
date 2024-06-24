@@ -6,6 +6,7 @@ export default function Login(){
     return(
         <div className="p-10">
             <Header/>
+            
             <div className="mt-10 w-[70%] mx-auto ">
                 <form className="grid gap-5">
                     <div className="grid gap-3">
