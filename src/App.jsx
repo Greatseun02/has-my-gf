@@ -1,7 +1,6 @@
-// import Home from "./components/home.jsx";
-// import Login from "./components/login.jsx";
+import Home from "./components/home.jsx";
+import Login from "./components/login.jsx";
 
-import Login from "./Login.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
